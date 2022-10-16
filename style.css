@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h2{
+    text-transform: capitalize;
+}
+
+.container{
+    width: 1000px;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.container .left-side{
+    background: orange;
+    width: 350px;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+}
+.container .right-side{
+    background: rgb(231, 231, 179);
+    width: 600px;
+    padding: 20px;
+    
+}
+
+.left-side .profile img{
+    width: 250px;
+    height: 230px;
+    border-radius: 50%;
+    border: 7px solid white;
+}
